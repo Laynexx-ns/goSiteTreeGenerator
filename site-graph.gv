@@ -1,0 +1,30 @@
+strict digraph {
+
+
+	"https://centraluniversity.ru/contacts" [  weight=0 ];
+
+	"https://centraluniversity.ru/contacts" -> "https://apply.centraluniversity.ru/visuallyimpaired-ba" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-ba" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-ba" -> "https://apply.centraluniversity.ru/visuallyimpaired-master" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-ba" -> "https://google.com" [  weight=0 ];
+
+	"https://google.com" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-master" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-master" -> "https://google.com" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-master" -> "https://apply.centraluniversity.ru/visuallyimpaired-ba" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired-master" -> "https://apply.centraluniversity.ru/visuallyimpaired" [  weight=0 ];
+
+	"https://apply.centraluniversity.ru/visuallyimpaired" [  weight=0 ];
+
+	"https://centraluniversity.ru/" [  weight=0 ];
+
+	"https://centraluniversity.ru/" -> "https://centraluniversity.ru/contacts" [  weight=0 ];
+
+}

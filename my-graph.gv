@@ -1,0 +1,16 @@
+strict digraph {
+
+
+	"we" [  weight=0 ];
+
+	"qweko" [  weight=0 ];
+
+	"foqwe" [  weight=0 ];
+
+	"qfwokp" [  weight=0 ];
+
+	"www.feed" [  weight=0 ];
+
+	"www.feed" -> "we" [  weight=0 ];
+
+}
